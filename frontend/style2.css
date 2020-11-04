@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.chat {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  padding: 400px;
+  background: rgb(197, 190, 190);
+  border-radius: 80px;
+  scroll-behavior: auto;
+}
+
+#message-box {
+  height: 90%;
+}
+
+#message {
+  height: 6%;
+  margin: 0;
+  padding: 4px;
+  width: 50%;
+  font-size: 32px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.my-message {
+  text-align: right;
+  margin-right: 100px;
+}
+.send {
+  background-color: green;
+  position: absolute;
+  padding: 10px;
+  width: 80px;
+  color: aliceblue;
+  margin-top: 300px;
+  margin-left: 600px;
+}
+.h1 {
+  position: relative;
+  margin-left: 180px;
+  color: gray;
+}
